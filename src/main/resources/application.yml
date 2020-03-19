@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    generate-ddl: true
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://root@localhost:3306/struts
+    username: root
+    password: mysql
+  logging.level:
+    root: DEBUG
